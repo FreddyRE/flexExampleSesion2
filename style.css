@@ -1,0 +1,66 @@
+body {
+    margin: 0px; 
+}
+
+
+.header .header-child:nth-child(2) {
+    background-color: rgb(221, 37, 227);
+
+}
+
+.header .header-child {
+    background-color: firebrick;
+
+}
+
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{ 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+    background-color: blue;
+    height: calc(100vh - 100px);
+}
+
+.header-child {
+    height: 100%;
+    width: 100px;
+    flex: 1;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+
+
+
+.search {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    background-color: black;
+}
+
+.header-child.logo img {
+    height: 100%;
+}
